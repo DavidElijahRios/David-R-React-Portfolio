@@ -3,12 +3,20 @@ import './App.css';
 import Header from './components/header.js'
 import Footer from './components/footer.js'
 import AboutMe from './components/aboutMe.js'
+import Contact from './components/contact';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
 
 function App() {
   return (
   <div>
    <Header />
-   <AboutMe />
+   <Router>
+     <Routes>
+        <Route path="/" element={<AboutMe />}/>
+        <Route path="/contact" element={<Contact />}/>
+     </Routes>
+    </Router>
    <Footer />
   </div>
  
