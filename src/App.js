@@ -6,6 +6,7 @@ import Footer from './components/footer.js'
 import AboutMe from './pages/aboutMe.js'
 import Contact from './pages/contact';
 import Portfolio from './pages/portfolio';
+import Resume from './pages/resume';
 
 // Package needed to route pages
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
@@ -16,6 +17,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 // TODO: NEED TO CREATE RESUME PAGE/COMPONENT?
 // TODO: NEED TO STYLE THE WHOLE APPLICATION 
 // TODO: NEED TO COMPLETE README.MD
+// TODO: need to add link functionality
 
 // Actual functioning app
 function App() {
@@ -27,6 +29,7 @@ function App() {
         <Route path="/" element={<AboutMe />}/>
         <Route path="/contact" element={<Contact />}/>
         <Route path="/portfolio" element={<Portfolio />}/>
+        <Route path="/resume" element={<Resume />}/>
      </Routes>
     </Router>
    <Footer />
