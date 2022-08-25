@@ -13,8 +13,6 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 
 // !LEFT OFF ON PORTFOLIO.JS
-// TODO: NEED TO FINISH ADDING PROJECTS TO PORTFOLIO
-// TODO: NEED TO CREATE RESUME PAGE/COMPONENT?
 // TODO: NEED TO STYLE THE WHOLE APPLICATION 
 // TODO: NEED TO COMPLETE README.MD
 // TODO: need to add link functionality

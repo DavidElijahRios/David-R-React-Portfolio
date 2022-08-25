@@ -1,11 +1,13 @@
 import React from "react";
-// TODO: Give functionality for the buttons
+
+import pdf from "../assets/images/resume/Resume-8.6.22.pdf";
+
 function Resume () {
     return (
         <div>
       <h1>Resume</h1>
-      <button>View Resume</button>
-      <button>Download Resume</button>
+      <a href={pdf} target="_blank" rel="noopener noreferrer"><button className="viewBtn"> View Resume </button></a>
+      <a href={pdf} download target="_blank" rel="noopener noreferrer"><button className="dwnloadBtn"> Download Resume </button></a>
         </div>
     )
 }
